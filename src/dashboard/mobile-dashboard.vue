@@ -1,6 +1,6 @@
 <template>
   <div class="vcp-m-dashboard" autoplay v-show="show" ref="dashboard">
-    <MobileControls :muted="muted"  :playerKey="playerKey"/>
+    <MobileControls :muted="muted" :playerKey="playerKey"/>
     <Progress :playerKey="playerKey"/>
   </div>
 </template>

@@ -10,13 +10,13 @@
             {{$t('dashboard.settings.autoplay')}}
           </span>
           <div class="item-control">
-            <widgets-switch ref="autoplaySwitch" @change="changeAutoplaySettings"></widgets-switch>
+            <widgets-switch :playerKey="playerKey" ref="autoplaySwitch" @change="changeAutoplaySettings"></widgets-switch>
           </div>
         </li>
         <li>
           <span class="item-name" >{{$t('dashboard.settings.loop')}}</span>
           <div class="item-control">
-            <widgets-switch ref="loopSwitch" @change="changeLoopSettings"></widgets-switch>
+            <widgets-switch :playerKey="playerKey" ref="loopSwitch" @change="changeLoopSettings"></widgets-switch>
           </div>
         </li>
         <li>

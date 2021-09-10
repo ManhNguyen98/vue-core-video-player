@@ -1,7 +1,7 @@
 <template>
   <div class="vcp-dashboard" autoplay v-show="show" ref="dashboard">
     <Progress :playerKey="playerKey"/>
-    <Controls :muted="muted"  :playerKey="playerKey"/>
+    <Controls :muted="muted" :playerKey="playerKey"/>
   </div>
 </template>
 
