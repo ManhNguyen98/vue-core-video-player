@@ -2,6 +2,7 @@ import ee from 'event-emitter'
 import EVENTS from './constants/EVENTS'
 import * as types from './helper/type'
 import { addClass, removeClass, registerFullScreenChangeListener } from './helper/dom'
+import { guid } from './helper/util'
 // import eventBus from './helper/eve'
 // import { getVideoCore } from './core'
 const _ee = ee()
@@ -12,7 +13,7 @@ const mixins = {
       show: false,
       fullscreen: false,
       isPlaying: false,
-      _playerKey: '',
+      _playerKey: 'key-' + guid(),
       _coreID: ''
     }
   },
