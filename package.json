@@ -1,13 +1,13 @@
 {
-  "name": "@manhnguyen98/vue-core-video-player",
-  "version": "0.2.0",
+  "name": "@manhnguyen98/vue2-core-video-player",
+  "version": "0.3.0",
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib ./src/index.js",
     "lint": "vue-cli-service lint",
     "publish": "npm publish --access public"
   },
-  "main": "dist/vue-core-video-player.common.js",
+  "main": "dist/@manhnguyen98/vue2-core-video-player.common.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/core-player/vue-core-video-player.git"
